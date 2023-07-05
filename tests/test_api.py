@@ -1,5 +1,5 @@
 import json
-import requests
+from flask import request
 
 
 def test_health(client):
